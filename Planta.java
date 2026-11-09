@@ -1,6 +1,6 @@
 package model;
 
-public class Planta extends Especie {
+public class Planta extends Especime{
     private String grupoEvolutivo;
     private String tipoDeSolo;
     private String necessidadeDeLuz;
@@ -11,6 +11,7 @@ public class Planta extends Especie {
         
     }
 
+    //GETTERS
     public String getGrupoEvolutivo() {
         return grupoEvolutivo;
     }
@@ -26,5 +27,25 @@ public class Planta extends Especie {
     public String getEstrategiaNutricional() {
         return estrategiaNutricional;
     }
-    
+
+    //SETTERS
+    public void setGrupoEvolutivo(String grupoEvolutivo) {
+        this.grupoEvolutivo = grupoEvolutivo;
+    }
+
+    public void setTipoDeSolo(String tipoDeSolo) {
+        this.tipoDeSolo = tipoDeSolo;
+    }
+
+    public void setNecessidadeDeLuz(String necessidadeDeLuz) {
+        this.necessidadeDeLuz = necessidadeDeLuz;
+    }
+
+    public void setNecessidadeDeAgua(String necessidadeDeAgua) {
+        this.necessidadeDeAgua = necessidadeDeAgua;
+    }
+
+    public void setEstrategiaNutricional(String estrategiaNutricional) {
+        this.estrategiaNutricional = estrategiaNutricional;
+    }
 }
