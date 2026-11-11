@@ -1,6 +1,7 @@
 package model;
 
-public class Planta extends Especime{
+public class Planta extends Especime {
+
     private String grupoEvolutivo;
     private String tipoDeSolo;
     private String necessidadeDeLuz;

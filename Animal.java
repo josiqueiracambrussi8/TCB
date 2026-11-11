@@ -1,12 +1,13 @@
 package model;
 
 public class Animal extends Especime {
+
     private String habito;
     private String dieta;
     private String periodoGestacao;
     private String comportamentoSocial;
     private String migracao;
-    private String extencaoTerritorial;
+    private int extencaoTerritorial;
 
     public Animal(){
 
@@ -28,7 +29,7 @@ public class Animal extends Especime {
     public String getMigracao() {
         return migracao;
     }
-    public String getExtencaoTerritorial() {
+    public int getExtencaoTerritorial() {
         return extencaoTerritorial;
     }
 
@@ -54,7 +55,7 @@ public class Animal extends Especime {
         this.migracao = migracao;
     }
 
-    public void setExtencaoTerritorial(String extencaoTerritorial) {
+    public void setExtencaoTerritorial(int extencaoTerritorial) {
         this.extencaoTerritorial = extencaoTerritorial;
     }
 }

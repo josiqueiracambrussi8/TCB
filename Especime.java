@@ -1,6 +1,7 @@
 package model;
 
 public class Especime {
+       
     private int idEsp;
     private String nomeCientifico;
     private String nomePopular;
