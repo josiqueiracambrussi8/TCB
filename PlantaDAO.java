@@ -36,8 +36,8 @@ public class PlantaDAO {
             //PEGA CHAVE PRIMARIA PAI
             rs = stmt.getGeneratedKeys();
             int id = 0;
-            if (rs.next()){                //PROBLEMA NO ID!!!!!!!!
-            id = rs.getInt(1);//LEMBRAR A PROF Q TENHO ID NA CLASSE ESPECIME!!!!!!!
+            if (rs.next()){                
+            id = rs.getInt(1);
             planta.setId(id);
             }
 
