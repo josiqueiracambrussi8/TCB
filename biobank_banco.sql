@@ -39,4 +39,5 @@ primary key(id_especime),
 constraint fk_especime_especimeplanta foreign key (id_especime) references especime(id_especime)
 );
 
+select * from especime;
 select * from especime_planta;
